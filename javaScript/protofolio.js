@@ -1,5 +1,4 @@
-
-   //---------------toggel icon navbar-----------
+ //---------------toggel icon navbar-----------
 let toggelBtn = document.querySelector('.toggle-menu');
 let navbar = document.querySelector('.navbar');
 
