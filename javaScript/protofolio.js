@@ -1,9 +1,4 @@
-var typed = new Typed(".multiple-text",{
-    strings:["","Frontend Developer","UX UI Designer","Software Engneeer"],
-    typeSpeed:100,
-    backSpeed:50,
-    loop:true
-})
+
    //---------------toggel icon navbar-----------
 let toggelBtn = document.querySelector('.toggle-menu');
 let navbar = document.querySelector('.navbar');
@@ -34,3 +29,10 @@ window.onscroll =()=>{
 let header = document.querySelector('header');
 header.classList.toggle('sticky',window.scrollY > 100);
 };
+//----------------------Typed-multiple-text-------
+var typed = new Typed(".multiple-text",{
+    strings:["","Frontend Developer","UX UI Designer","Software Engneeer"],
+    typeSpeed:100,
+    backSpeed:50,
+    loop:true
+})
